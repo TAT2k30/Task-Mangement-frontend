@@ -6,7 +6,6 @@ function RootLayout({ children }: { children: ReactNode }) {
             <StreamVideoProvider>
                 {children}
             </StreamVideoProvider>
-
         </main>
     )
 }

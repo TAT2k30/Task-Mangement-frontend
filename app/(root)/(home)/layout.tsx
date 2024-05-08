@@ -1,7 +1,16 @@
 
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar';
+import { Metadata } from 'next';
 import React, { ReactNode } from 'react'
+
+export const metadata: Metadata = {
+    title: "IDEA - Home Page",
+    description: "Task management app",
+    icons: {
+        icon: '/icons/idea-logo.svg'
+    }
+};
 function RootLayout({ children }: { children: ReactNode }) {
     return (
         <main className="relative">
